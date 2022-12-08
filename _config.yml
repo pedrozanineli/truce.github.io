@@ -15,9 +15,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md"}
   - {file: "blog.md"}
 
-external:
-  - {title: Mail, url: "mailto:pedro.zanineli12@gmail.com"}
-
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
