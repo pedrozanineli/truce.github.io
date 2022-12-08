@@ -6,8 +6,6 @@ layout: default
 
 Bem vinda(o)!
 
-{% link http://pedrozanineli.github.io//my-post %}
-
 {% for post in site.posts %}
   <strong>{{ post.title }}</strong>
   <p>{{post.url}}</p>
