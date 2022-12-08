@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## Bem vinda(o)!
+## Página Inicial
 
-Página Inicial
+Bem vinda(o)!
 
 Teste
