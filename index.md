@@ -12,7 +12,7 @@ Teste
   <div style="margin-bottom:8px;border: 0.5px solid grey;border-radius: 5px;">
     <div style="padding:10px;">
       {{ dado.name }} {{ dado.date }}
-      [Link](./{{dado.link}})
+      [Link](./_posts/{{dado.link}})
     </div>
   </div>
 {% endfor %}
