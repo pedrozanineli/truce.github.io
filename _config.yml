@@ -1,18 +1,20 @@
-title: Blog
+title: "Truce's Blog"
 author: Beatriz Ortiz
-description: Descrição da Bia
 permalink: /:title/
-lang: "pt"
 theme: minima
 
 # Layout
-show_social: true         # show footer
-show_excerpts: true       # show article excerpts on the home page
-show_sidebar: true        # show a sidebar instead of the usual header
+show_social: true 
+show_excerpts: true 
+show_frame: false 
+show_sidebar: true 
 
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:pedro.zanineli12@gmail.com"}
 
 plugins:
   - jekyll-feed
