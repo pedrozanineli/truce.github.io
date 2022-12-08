@@ -7,7 +7,7 @@ layout: default
 Bem vinda(o)!
 
 {% for post in site.posts %}
-  <strong><h4>{{ post.title }}</h4></strong>
+  <strong>{{ post.title }}</strong>
   <p>{{post.url}}</p>
   <a href="{{ post.url }}">Link para o post</a>
 {% endfor %}
