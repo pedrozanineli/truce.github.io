@@ -11,8 +11,7 @@ Teste
 {% for dado in site.data.dados %}
   <div style="margin-bottom:8px;border: 0.5px solid grey;border-radius: 5px;">
     <div style="padding:10px;">
-      {{ dado.name }} {{ dado.date }}
-      [Link](./_posts/{{dado.link}})
+      {{ dado.name }} {{ dado.date }} <a href="./_posts/{{ dado.link }}" target="_blank">Link</a>
     </div>
   </div>
 {% endfor %}
