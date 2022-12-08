@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Página Inicial
+<h2>Página Inicial<\h2>
 
 Bem vinda(o)!
 
