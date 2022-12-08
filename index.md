@@ -1,5 +1,6 @@
 ---
 layout: default
+title: ""
 ---
 
 <h1>Home Page</h1>
