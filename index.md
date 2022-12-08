@@ -10,5 +10,5 @@ Teste
 
 {% for post in site.posts %}
   ### {{ post.title }}
-  [Link](./_posts/{{ post.url }})
+  <a href="{{ post.url }}">Link para o post</a>
 {% endfor %}
