@@ -1,19 +1,18 @@
 title: Blog
 author: Beatriz Ortiz
 description: Descrição da Bia
+permalink: /:title/
+lang: "pt"
 theme: minima
 
 # Layout
 show_social: true         # show footer
 show_excerpts: true       # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
 show_sidebar: true        # show a sidebar instead of the usual header
 
 # Menu
-
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md"}
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
